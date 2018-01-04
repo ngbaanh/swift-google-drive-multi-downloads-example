@@ -12,6 +12,6 @@ A simple file browser for cloud items.
 A simple file manager for downloaded/downloading files.
 
 
-![ScreenShot](https://raw.githubusercontent.com/ngbaanh/swift-google-drive-multi-downloads-example/ss1.png)
+![ScreenShot](https://raw.githubusercontent.com/ngbaanh/swift-google-drive-multi-downloads-example/master/ss1.png)
 
-![ScreenShot](https://raw.githubusercontent.com/ngbaanh/swift-google-drive-multi-downloads-example/ss2.png)
+![ScreenShot](https://raw.githubusercontent.com/ngbaanh/swift-google-drive-multi-downloads-example/master/ss2.png)
