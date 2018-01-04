@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		12F93AAF1FFDE1F200029CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93AAE1FFDE1F200029CD6 /* AppDelegate.swift */; };
-		12F93AB11FFDE1F200029CD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93AB01FFDE1F200029CD6 /* ViewController.swift */; };
 		12F93AB41FFDE1F200029CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F93AB21FFDE1F200029CD6 /* Main.storyboard */; };
 		12F93AB61FFDE1F200029CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F93AB51FFDE1F200029CD6 /* Assets.xcassets */; };
 		12F93AB91FFDE1F200029CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F93AB71FFDE1F200029CD6 /* LaunchScreen.storyboard */; };
 		12F93AC41FFDE1F200029CD6 /* GoogleDriveDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93AC31FFDE1F200029CD6 /* GoogleDriveDownloaderTests.swift */; };
 		12F93ACF1FFDE1F200029CD6 /* GoogleDriveDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93ACE1FFDE1F200029CD6 /* GoogleDriveDownloaderUITests.swift */; };
+		12F93ADD1FFDE22800029CD6 /* CloudFileBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93ADC1FFDE22800029CD6 /* CloudFileBrowserViewController.swift */; };
+		12F93ADF1FFDE4B400029CD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12F93ADE1FFDE4B400029CD6 /* GoogleService-Info.plist */; };
+		12F93AE11FFE032200029CD6 /* DownloadCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93AE01FFE032200029CD6 /* DownloadCenter.swift */; };
+		12F93AE31FFE0EB900029CD6 /* CloudFileTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93AE21FFE0EB900029CD6 /* CloudFileTableCell.swift */; };
+		12F93AE51FFE109000029CD6 /* DownloadedFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F93AE41FFE108F00029CD6 /* DownloadedFileViewController.swift */; };
+		2509C3EB88582CD21BF690CC /* Pods_GoogleDriveDownloaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F581EA8A211F54C90C7B0D8B /* Pods_GoogleDriveDownloaderTests.framework */; };
+		D2B56CD3496938D29E8B3763 /* Pods_GoogleDriveDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFF98B0471E5236E7AA55B5 /* Pods_GoogleDriveDownloader.framework */; };
+		F5D600E7CE5C5C30DB9F4044 /* Pods_GoogleDriveDownloaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBD768CCC86BB129A7CC02D /* Pods_GoogleDriveDownloaderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021C9970F52C7ACAC34B3897 /* Pods-GoogleDriveDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownloaderTests/Pods-GoogleDriveDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
 		12F93AAB1FFDE1F200029CD6 /* GoogleDriveDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDriveDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F93AAE1FFDE1F200029CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12F93AB01FFDE1F200029CD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12F93AB31FFDE1F200029CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12F93AB51FFDE1F200029CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F93AB81FFDE1F200029CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,19 @@
 		12F93ACA1FFDE1F200029CD6 /* GoogleDriveDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDriveDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F93ACE1FFDE1F200029CD6 /* GoogleDriveDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveDownloaderUITests.swift; sourceTree = "<group>"; };
 		12F93AD01FFDE1F200029CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F93ADC1FFDE22800029CD6 /* CloudFileBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFileBrowserViewController.swift; sourceTree = "<group>"; };
+		12F93ADE1FFDE4B400029CD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12F93AE01FFE032200029CD6 /* DownloadCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCenter.swift; sourceTree = "<group>"; };
+		12F93AE21FFE0EB900029CD6 /* CloudFileTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudFileTableCell.swift; sourceTree = "<group>"; };
+		12F93AE41FFE108F00029CD6 /* DownloadedFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadedFileViewController.swift; sourceTree = "<group>"; };
+		180FA645B6DFD59A5B95A04F /* Pods-GoogleDriveDownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownloaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownloaderUITests/Pods-GoogleDriveDownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EBD768CCC86BB129A7CC02D /* Pods_GoogleDriveDownloaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDriveDownloaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C00AEB0CA1B63174BAB4C5 /* Pods-GoogleDriveDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownloader/Pods-GoogleDriveDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		9FFF98B0471E5236E7AA55B5 /* Pods_GoogleDriveDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDriveDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80C28B65801C68D89871093 /* Pods-GoogleDriveDownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownloaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownloaderUITests/Pods-GoogleDriveDownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0FB5F8CE0E8AA7C54F3981F /* Pods-GoogleDriveDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownloader/Pods-GoogleDriveDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		D80FEDFCB3DF89A12E3BE324 /* Pods-GoogleDriveDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDriveDownloaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleDriveDownloaderTests/Pods-GoogleDriveDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F581EA8A211F54C90C7B0D8B /* Pods_GoogleDriveDownloaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleDriveDownloaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B56CD3496938D29E8B3763 /* Pods_GoogleDriveDownloader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2509C3EB88582CD21BF690CC /* Pods_GoogleDriveDownloaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D600E7CE5C5C30DB9F4044 /* Pods_GoogleDriveDownloaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				12F93AC21FFDE1F200029CD6 /* GoogleDriveDownloaderTests */,
 				12F93ACD1FFDE1F200029CD6 /* GoogleDriveDownloaderUITests */,
 				12F93AAC1FFDE1F200029CD6 /* Products */,
+				43571887316B29935FA625AF /* Pods */,
+				53A7A9F7D5C35A015565F167 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				12F93AAE1FFDE1F200029CD6 /* AppDelegate.swift */,
-				12F93AB01FFDE1F200029CD6 /* ViewController.swift */,
+				12F93AE01FFE032200029CD6 /* DownloadCenter.swift */,
+				12F93AE21FFE0EB900029CD6 /* CloudFileTableCell.swift */,
+				12F93ADC1FFDE22800029CD6 /* CloudFileBrowserViewController.swift */,
+				12F93AE41FFE108F00029CD6 /* DownloadedFileViewController.swift */,
 				12F93AB21FFDE1F200029CD6 /* Main.storyboard */,
 				12F93AB51FFDE1F200029CD6 /* Assets.xcassets */,
 				12F93AB71FFDE1F200029CD6 /* LaunchScreen.storyboard */,
 				12F93ABA1FFDE1F200029CD6 /* Info.plist */,
+				12F93ADE1FFDE4B400029CD6 /* GoogleService-Info.plist */,
 			);
 			path = GoogleDriveDownloader;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = GoogleDriveDownloaderUITests;
 			sourceTree = "<group>";
 		};
+		43571887316B29935FA625AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75C00AEB0CA1B63174BAB4C5 /* Pods-GoogleDriveDownloader.debug.xcconfig */,
+				D0FB5F8CE0E8AA7C54F3981F /* Pods-GoogleDriveDownloader.release.xcconfig */,
+				D80FEDFCB3DF89A12E3BE324 /* Pods-GoogleDriveDownloaderTests.debug.xcconfig */,
+				021C9970F52C7ACAC34B3897 /* Pods-GoogleDriveDownloaderTests.release.xcconfig */,
+				C80C28B65801C68D89871093 /* Pods-GoogleDriveDownloaderUITests.debug.xcconfig */,
+				180FA645B6DFD59A5B95A04F /* Pods-GoogleDriveDownloaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53A7A9F7D5C35A015565F167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FFF98B0471E5236E7AA55B5 /* Pods_GoogleDriveDownloader.framework */,
+				F581EA8A211F54C90C7B0D8B /* Pods_GoogleDriveDownloaderTests.framework */,
+				1EBD768CCC86BB129A7CC02D /* Pods_GoogleDriveDownloaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F93AD31FFDE1F200029CD6 /* Build configuration list for PBXNativeTarget "GoogleDriveDownloader" */;
 			buildPhases = (
+				7BCEDE793134D0CDEFE45B18 /* [CP] Check Pods Manifest.lock */,
 				12F93AA71FFDE1F200029CD6 /* Sources */,
 				12F93AA81FFDE1F200029CD6 /* Frameworks */,
 				12F93AA91FFDE1F200029CD6 /* Resources */,
+				648C726E2071235A251DD50F /* [CP] Embed Pods Frameworks */,
+				5D70FC06871632F81D37AFEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F93AD61FFDE1F200029CD6 /* Build configuration list for PBXNativeTarget "GoogleDriveDownloaderTests" */;
 			buildPhases = (
+				4BB723DCC944FF224D050CBD /* [CP] Check Pods Manifest.lock */,
 				12F93ABB1FFDE1F200029CD6 /* Sources */,
 				12F93ABC1FFDE1F200029CD6 /* Frameworks */,
 				12F93ABD1FFDE1F200029CD6 /* Resources */,
+				04CEEA3903AC1C142DF6F002 /* [CP] Embed Pods Frameworks */,
+				389F39460A46B00BE868716E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F93AD91FFDE1F200029CD6 /* Build configuration list for PBXNativeTarget "GoogleDriveDownloaderUITests" */;
 			buildPhases = (
+				A48419F70891651E9D92D076 /* [CP] Check Pods Manifest.lock */,
 				12F93AC61FFDE1F200029CD6 /* Sources */,
 				12F93AC71FFDE1F200029CD6 /* Frameworks */,
 				12F93AC81FFDE1F200029CD6 /* Resources */,
+				00799A6B41CAF1F1E91537C1 /* [CP] Embed Pods Frameworks */,
+				F1052A39F246F43624678A91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12F93AB91FFDE1F200029CD6 /* LaunchScreen.storyboard in Resources */,
+				12F93ADF1FFDE4B400029CD6 /* GoogleService-Info.plist in Resources */,
 				12F93AB61FFDE1F200029CD6 /* Assets.xcassets in Resources */,
 				12F93AB41FFDE1F200029CD6 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +316,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00799A6B41CAF1F1E91537C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownloaderUITests/Pods-GoogleDriveDownloaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04CEEA3903AC1C142DF6F002 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownloaderTests/Pods-GoogleDriveDownloaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		389F39460A46B00BE868716E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownloaderTests/Pods-GoogleDriveDownloaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BB723DCC944FF224D050CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D70FC06871632F81D37AFEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownloader/Pods-GoogleDriveDownloader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648C726E2071235A251DD50F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownloader/Pods-GoogleDriveDownloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BCEDE793134D0CDEFE45B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A48419F70891651E9D92D076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1052A39F246F43624678A91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleDriveDownloaderUITests/Pods-GoogleDriveDownloaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12F93AA71FFDE1F200029CD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F93AB11FFDE1F200029CD6 /* ViewController.swift in Sources */,
+				12F93AE11FFE032200029CD6 /* DownloadCenter.swift in Sources */,
 				12F93AAF1FFDE1F200029CD6 /* AppDelegate.swift in Sources */,
+				12F93AE51FFE109000029CD6 /* DownloadedFileViewController.swift in Sources */,
+				12F93AE31FFE0EB900029CD6 /* CloudFileTableCell.swift in Sources */,
+				12F93ADD1FFDE22800029CD6 /* CloudFileBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +572,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,42 +622,48 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		12F93AD41FFDE1F200029CD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C00AEB0CA1B63174BAB4C5 /* Pods-GoogleDriveDownloader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3B3YM8648;
+				DEVELOPMENT_TEAM = L8NQ6AJ92Q;
 				INFOPLIST_FILE = GoogleDriveDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ngbaanh.GoogleDriveDownloader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		12F93AD51FFDE1F200029CD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FB5F8CE0E8AA7C54F3981F /* Pods-GoogleDriveDownloader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3B3YM8648;
+				DEVELOPMENT_TEAM = L8NQ6AJ92Q;
 				INFOPLIST_FILE = GoogleDriveDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ngbaanh.GoogleDriveDownloader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		12F93AD71FFDE1F200029CD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80FEDFCB3DF89A12E3BE324 /* Pods-GoogleDriveDownloaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +681,7 @@
 		};
 		12F93AD81FFDE1F200029CD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021C9970F52C7ACAC34B3897 /* Pods-GoogleDriveDownloaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +699,7 @@
 		};
 		12F93ADA1FFDE1F200029CD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80C28B65801C68D89871093 /* Pods-GoogleDriveDownloaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +716,7 @@
 		};
 		12F93ADB1FFDE1F200029CD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180FA645B6DFD59A5B95A04F /* Pods-GoogleDriveDownloaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
